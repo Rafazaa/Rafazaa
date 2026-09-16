@@ -2,7 +2,6 @@
 
 **`Desenvolvedora FullStack`**
 
-Olá! Me chamo Rafael Venâncio Martins, tenho 24 anos e sou do interior de São Paulo. Venho de uma origem humilde, mas sempre carreguei grandes sonhos. Desde cedo, sou apaixonado por tecnologia — especialmente por games e inteligência artificial. Apesar das limitações do mercado brasileiro, nunca deixei que isso me impedisse de aprender por conta própria. Hoje, meu foco é me tornar um desenvolvedor Full Stack, sempre priorizando o crescimento e, acima de tudo, o conhecimento. No futuro, pretendo ingressar no universo do desenvolvimento de games e inteligência artificial.
 
 ---
 <p align="left">
