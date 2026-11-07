@@ -14,10 +14,19 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi38688/github-profile-3d-contrib@main
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate 3D Profile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+        run: |
+          npx github-profile-3d-contrib@latest
+
       - name: Commit & Push changes
         run: |
           git config user.name github-actions[bot]
